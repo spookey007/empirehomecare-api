@@ -1,22 +1,37 @@
-[15-Mar-2023 05:56:17 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:19 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:20 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:20 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:21 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:22 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:52 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:53 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:54 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:54 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:55 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:56 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:57 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:56:57 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:58:54 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:58:55 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:58:56 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:58:56 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:58:58 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:58:59 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:59:02 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
-[15-Mar-2023 05:59:03 UTC] PHP Fatal error:  Class 'phpseclib3\Net\SSH2' not found in /home/jawkente/secure.penntelco.com/empire/vendor/phpseclib/phpseclib/phpseclib/Net/SFTP.php on line 45
+[16-Mar-2023 20:43:52 UTC] PHP Parse error:  syntax error, unexpected token "case" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 899
+[16-Mar-2023 20:44:27 UTC] PHP Parse error:  syntax error, unexpected token "case" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 900
+[16-Mar-2023 20:45:32 UTC] PHP Parse error:  syntax error, unexpected token "case" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 900
+[22-Mar-2023 13:44:24 UTC] PHP Fatal error:  Can't use function return value in write context in /home/jawkente/projects.penntelco.com/empire/Request.php on line 938
+[22-Mar-2023 13:44:25 UTC] PHP Fatal error:  Can't use function return value in write context in /home/jawkente/projects.penntelco.com/empire/Request.php on line 938
+[22-Mar-2023 13:47:47 UTC] PHP Fatal error:  Can't use function return value in write context in /home/jawkente/projects.penntelco.com/empire/Request.php on line 943
+[22-Mar-2023 13:59:29 UTC] PHP Fatal error:  Cannot use temporary expression in write context in /home/jawkente/projects.penntelco.com/empire/Request.php on line 940
+[22-Mar-2023 13:59:51 UTC] PHP Fatal error:  Cannot use temporary expression in write context in /home/jawkente/projects.penntelco.com/empire/Request.php on line 940
+[26-Apr-2023 00:13:37 UTC] PHP Parse error:  syntax error, unexpected identifier "Entity", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 950
+[26-Apr-2023 00:13:39 UTC] PHP Parse error:  syntax error, unexpected identifier "Entity", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 950
+[26-Apr-2023 00:13:39 UTC] PHP Parse error:  syntax error, unexpected identifier "Entity", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 950
+[26-Apr-2023 00:14:48 UTC] PHP Parse error:  syntax error, unexpected identifier "Entity", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 950
+[26-Apr-2023 00:14:50 UTC] PHP Parse error:  syntax error, unexpected token "case" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1037
+[26-Apr-2023 01:55:06 UTC] PHP Parse error:  syntax error, unexpected identifier "Y", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1229
+[26-Apr-2023 01:55:09 UTC] PHP Parse error:  syntax error, unexpected identifier "Y", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1229
+[26-Apr-2023 01:55:19 UTC] PHP Parse error:  syntax error, unexpected identifier "Y", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1229
+[26-Apr-2023 01:55:19 UTC] PHP Parse error:  syntax error, unexpected identifier "Y", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1229
+[26-Apr-2023 01:55:52 UTC] PHP Parse error:  syntax error, unexpected identifier "Y", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1229
+[26-Apr-2023 01:55:52 UTC] PHP Parse error:  syntax error, unexpected identifier "Y", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1229
+[26-Apr-2023 18:35:11 UTC] PHP Parse error:  syntax error, unexpected token "case" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1104
+[26-Apr-2023 18:35:22 UTC] PHP Parse error:  syntax error, unexpected token "case" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1104
+[26-Apr-2023 18:35:22 UTC] PHP Parse error:  syntax error, unexpected token "case" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1104
+[26-Apr-2023 18:35:22 UTC] PHP Parse error:  syntax error, unexpected token "case" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1104
+[26-Apr-2023 18:35:22 UTC] PHP Parse error:  syntax error, unexpected token "case" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1104
+[26-Apr-2023 18:35:22 UTC] PHP Parse error:  syntax error, unexpected token "case" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1104
+[26-Apr-2023 18:35:33 UTC] PHP Parse error:  syntax error, unexpected token "case" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1104
+[27-Apr-2023 21:13:18 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "".$ccode."" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1359
+[27-Apr-2023 21:13:28 UTC] PHP Parse error:  syntax error, unexpected single-quoted string "".$ccode."" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1359
+[27-Apr-2023 21:13:51 UTC] PHP Parse error:  syntax error, unexpected token "$" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1360
+[27-Apr-2023 21:13:52 UTC] PHP Parse error:  syntax error, unexpected token "$" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1360
+[27-Apr-2023 21:13:59 UTC] PHP Parse error:  syntax error, unexpected token "$" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1360
+[24-May-2023 17:58:22 UTC] PHP Parse error:  syntax error, unexpected identifier "SELECT", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1378
+[24-May-2023 18:01:26 UTC] PHP Parse error:  syntax error, unexpected identifier "SELECT", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1378
+[26-May-2023 01:00:06 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1381
+[26-May-2023 01:01:09 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1381
+[26-May-2023 01:01:10 UTC] PHP Parse error:  syntax error, unexpected identifier "id", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1381
+[26-May-2023 01:02:22 UTC] PHP Parse error:  syntax error, unexpected single-quoted string " from mm.member_id ) = trim( b...", expecting ")" in /home/jawkente/projects.penntelco.com/empire/Request.php on line 1381

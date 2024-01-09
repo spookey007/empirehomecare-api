@@ -55,5 +55,14 @@
             'reference' => 'cc181005cf548bfd8a4896383bb825d859259f95',
             'dev_requirement' => false,
         ),
+        'yidas/csv' => array(
+            'pretty_version' => '1.0.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../yidas/csv',
+            'aliases' => array(),
+            'reference' => 'aafdd964ea0a384091ed9200b338bdbb58ab4d2e',
+            'dev_requirement' => false,
+        ),
     ),
 );
