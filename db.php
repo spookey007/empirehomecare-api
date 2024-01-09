@@ -2,9 +2,9 @@
 
 class Connection
 {
-    private $server = "mysql:host=localhost;dbname=clqzol2m600ags39npaohsbk1";
-    private $user = "clqzol2m3003v9ns38j3j6p4o";
-    private $pass = "H2TxmQBtOBYhNWjScmQDzHvo";
+    private $server = "mysql:host=clqzol2m600ags39npaohsbk1;dbname=clqzol2m4003w9ns3gdtg7icn";
+    private $user = "clqzol2m4003w9ns3gdtg7icn";
+    private $pass = "tg0WBGzjhlhstQv1wBZxldp3";
     private $options = array(
         PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
         PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
