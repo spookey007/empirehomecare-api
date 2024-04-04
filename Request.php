@@ -1548,55 +1548,80 @@ class Request implements IRequest
 
                     return json_encode($res);
                 }
-                if ($params['type'] == 'postcaregivers')
-                {
-                    unset($params['type']);
-                    $contents = json_encode($params);
-                    $dm = $db->prepare('Insert into ' . $table . ' (meta_key,meta_value,endpoint) values (?,?,?)');
-                    $rm = $dm->execute(['caregivers', $contents, 'addcaregivers']);
-                    $database->closeConnection();
-                    $msg = 'caregiver posted';
-                    $res = array(
-                        'result' => 'success',
-                        'message' => $msg
-                    );
-                    return json_encode($res);
-                }
-                if ($params['type'] == 'updatecaregivers')
-                {
-
-                    $caregiver_id = $params['id'];
-                    $member_status = $params['status'];
-                    $query = $db->prepare("select * from $table where id ='$caregiver_id'");
-                    $query->execute();
-                    $count = $query->rowCount();
-                    if ($query->rowCount() > 0)
-                    {
-
+               if ($params['type'] == 'postcaregivers') {
                         unset($params['type']);
-                        unset($params['status']);
                         $contents = json_encode($params);
-                        $stmt = $db->prepare("UPDATE  $table  SET status = ?,meta_value =? where id = ?");
-                        $stmt->execute([$member_status, $contents, $caregiver_id]);
-                        $database->closeConnection();
-                        $msg = 'caregiver updated';
-                        $res = array(
-                            'result' => 'success',
-                            'message' => $msg
-                        );
+                    
+                        // Trim whitespace from the JSON string
+                        $contents = trim($contents);
+                    
+                        // Prepare and execute insert query using placeholders
+                        $dm = $db->prepare('INSERT INTO ' . $table . ' (meta_key, meta_value, endpoint) VALUES (?, ?, ?)');
+                        $rm = $dm->execute(['caregivers', $contents, 'addcaregivers']);
+                    
+                        if ($rm) {
+                            $msg = 'caregiver posted';
+                            $res = array(
+                                'result' => 'success',
+                                'message' => $msg
+                            );
+                        } else {
+                            // Handle insert failure
+                            $msg = 'Failed to post caregiver';
+                            $res = array(
+                                'result' => 'error',
+                                'message' => $msg
+                            );
+                        }
                         return json_encode($res);
+                    }
+                    
+                    if ($params['type'] == 'updatecaregivers') {
+                        $caregiver_id = $params['id'];
+                        $member_status = $params['status'];
+                    
+                        // Prepare and execute select query to check if caregiver exists
+                        $query = $db->prepare("SELECT * FROM $table WHERE id = ?");
+                        $query->execute([$caregiver_id]);
+                        $count = $query->rowCount();
+                    
+                        if ($count > 0) {
+                            unset($params['type']);
+                            unset($params['status']);
+                            $contents = json_encode($params);
+                    
+                            // Trim whitespace from the JSON string
+                            $contents = trim($contents);
+                    
+                            // Prepare and execute update query using placeholders
+                            $stmt = $db->prepare("UPDATE $table SET status = ?, meta_value = ? WHERE id = ?");
+                            $updateResult = $stmt->execute([$member_status, $contents, $caregiver_id]);
+                    
+                            if ($updateResult) {
+                                $msg = 'caregiver updated';
+                                $res = array(
+                                    'result' => 'success',
+                                    'message' => $msg
+                                );
+                            } else {
+                                // Handle update failure
+                                $msg = 'Failed to update caregiver';
+                                $res = array(
+                                    'result' => 'error',
+                                    'message' => $msg
+                                );
+                            }
+                        } else {
+                            // Handle no caregiver found
+                            $msg = "No caregiver found against provided id";
+                            $res = array(
+                                'result' => 'error',
+                                'message' => $msg
+                            );
+                        }
+                        return json_encode($res);
+                    }
 
-                    }
-                    else
-                    {
-                        $msg = "no caregiver found against provided id";
-                        $res = array(
-                            'result' => 'error',
-                            'message' => $msg
-                        );
-                        //$this->logger('email',$params['body'],$res,'log',$params['to'],'thegiftingmindset@gmail.com');
-                        return json_encode($res);
-                    }
                 }
 
                 if ($params['type'] == 'deactivatecaregivers')
