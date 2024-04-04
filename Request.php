@@ -1622,8 +1622,6 @@ class Request implements IRequest
                         return json_encode($res);
                     }
 
-                }
-
                 if ($params['type'] == 'deactivatecaregivers')
                 {
 
@@ -2052,6 +2050,4 @@ class Request implements IRequest
     //     // $un = $un_pw[0];
     //     // $pw = $un_pw[1];
     // }
-    
-}
-
+    }
