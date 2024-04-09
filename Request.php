@@ -1289,8 +1289,8 @@ class Request implements IRequest
                     
                     
                     }
-                    $dm = $db->prepare('Insert into ' . $table . ' (meta_key,meta_value) values (?,?)');
-                    $rm = $dm->execute([$param_type, $contents]);
+                    $dm = $db->prepare('Insert into ' . $table . ' (meta_key,meta_value,endpoint) values (?,?,?)');
+                    $rm = $dm->execute([$param_type, $contents,$params['type']]);
                     $id = $db->lastInsertId();
                     
                     $d1 = $db->prepare('Insert into visits_history (id,meta_key,meta_value) values (?,?,?)');
