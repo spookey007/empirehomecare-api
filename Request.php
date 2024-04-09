@@ -1290,7 +1290,7 @@ class Request implements IRequest
                     
                     }
                     $dm = $db->prepare('Insert into ' . $table . ' (meta_key,meta_value,endpoint) values (?,?,?)');
-                    $rm = $dm->execute([$param_type, $contents,$params['type']]);
+                    $rm = $dm->execute([$param_type, $contents,'postvisit']);
                     $id = $db->lastInsertId();
                     
                     $d1 = $db->prepare('Insert into visits_history (id,meta_key,meta_value) values (?,?,?)');
@@ -1306,7 +1306,7 @@ class Request implements IRequest
                     
                     $filename = 'VISITS_' . $params['AgencyTaxID'] . '_' . date('Ymdhms') . '.CSV';
                    
-                    $fp = fopen($path, 'w'); // open in write only mode (write at the start of the file)
+                    //$fp = fopen($path, 'w'); // open in write only mode (write at the start of the file)
                    
                     $delimiter = ',';
                     $enclosure = '"';
@@ -1314,7 +1314,7 @@ class Request implements IRequest
                    
                     $eol = "\r\n";
 
-                    $dd = $this->fputcsv_eol($fp, $rows, $eol);
+                    // $dd = $this->fputcsv_eol($fp, $rows, $eol);
                    
                     // $sftp = new SFTP('kristenlaw.penntelco.com', 2112);
 
